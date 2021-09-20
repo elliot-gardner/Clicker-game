@@ -13,9 +13,10 @@ function clickCounter() {
 
 document.addEventListener('click', clickCounter);
 
-// Function to let the user know that the game is over//
+// Function to let the user know that the game is over, then redirect to end game screen//
 function endGame() {
     alert("Times up!");
+    window.location.replace("./end.html")
 }
 
 // Countdown function, if there is remaining time then time allowed is decremented by 1, stops counting down at 0 then calls the endgame function //
