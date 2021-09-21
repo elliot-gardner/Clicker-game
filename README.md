@@ -1,4 +1,4 @@
-# Portfolio Project 1 - Game of games (placeholder name)
+# Portfolio Project - Clicky Game
 ## Purpose
 
 A tap the screen as many times as you can within a specified period of time game.
