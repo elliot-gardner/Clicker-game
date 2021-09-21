@@ -13,9 +13,10 @@ function clickCounter() {
 
 document.addEventListener('click', clickCounter);
 
-// Function to let the user know that the game is over, then redirect to end game screen//
+// Function to let the user know that the game is over, save their score to local storage, then redirect to end game screen//
 function endGame() {
     alert("Times up!");
+    localStorage.setItem("latestScore", totalClicks)
     window.location.replace("./end.html")
 }
 
