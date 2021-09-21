@@ -8,8 +8,8 @@ This Website was created for the purpose of having fun when there is an idle mom
 The live website can be found [here](https://elliot-gardner.github.io/Clicker-game/index.html)
 
 ## Clicker Game Responsive Website
+![Screenshot 2021-09-21 at 09 02 22](https://user-images.githubusercontent.com/81585599/134153435-635dfad7-0062-4d63-a572-39ce908c5537.png)
 
-![alt text](https://i.imgur.com/CciIHpr.png “Am I Responsive results”)
 
 The game has very few style elements implemented and so it is very responsive.
 
@@ -51,8 +51,9 @@ I would also like to implement a gradient in the background that changes slightl
 * HTML5
 	* This project uses HTML5 as the main language for content and structure of the Website.
 * CSS3/Bootstrap
-	* This project uses CSS3 through Bootsrap for Website styling
+	* This project uses CSS3 through Bootsrap for button styling
 * Javascript
+	* Javascript makes the game work, the whole game is programmed using Javascript.
 
 ### Frameworks, Libraries & Programs used
 * [GitHub](https://github.com/)
