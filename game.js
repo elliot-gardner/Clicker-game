@@ -6,7 +6,7 @@ let timeAllowed = 10;
 
 // This is the click counter  & the event listener that tracks the clicks //
 function clickCounter() {
-    console.log("Click")
+    console.log("Click");
     totalClicks ++;
     clickReadout.innerHTML = "Total Clicks: " + totalClicks;
 }
@@ -15,8 +15,8 @@ document.addEventListener('click', clickCounter);
 
 // Function to let the user know that the game is over, save their score to local storage, then redirect to end game screen//
 function endGame() {
+    localStorage.setItem("latestScore", totalClicks);
     alert("Times up!");
-    localStorage.setItem("latestScore", totalClicks)
     window.location.replace("./end.html")
 }
 
@@ -30,7 +30,7 @@ else {
     console.log("Countdown function works");
     timeAllowed -= 1;
     timer.innerHTML = "Time: " + timeAllowed;
-}
+    }
 }
 
 // this variable calls the function "countDown" every 1000ms (1 second) //
