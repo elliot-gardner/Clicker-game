@@ -17,7 +17,7 @@ document.addEventListener('click', clickCounter);
 function endGame() {
     localStorage.setItem("latestScore", totalClicks);
     alert("Times up!");
-    window.location.replace("./end.html")
+    window.location.replace("end.html")
 }
 
 // Countdown function, if there is remaining time then time allowed is decremented by 1, stops counting down at 0 then calls the endgame function //
