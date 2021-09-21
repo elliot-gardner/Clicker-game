@@ -2,7 +2,7 @@ const clickReadout = document.getElementById('clickReadout');
 const timer = document.getElementById('timer');
 
 let totalClicks = "0";
-let timeAllowed = 10;
+let timeAllowed = 30;
 
 // This is the click counter  & the event listener that tracks the clicks //
 function clickCounter() {
